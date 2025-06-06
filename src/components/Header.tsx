@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <div className='m-auto px-20 py-10 flex items-center justify-between'>
-          <h1 className='text-4xl font-extrabold text-gray-800'>STUDENTBOOK<span className='text-red-950'>SWAP</span></h1>
+          <h1 className='text-4xl font-extrabold text-gray-800'>STUDENTBOOK<span className='text-red-900'>SWAP</span></h1>
           <div>
             {/* <div>
               <ul className='grid grid-cols-2 items-center ml-18 text-2xl text-gray-800'>
