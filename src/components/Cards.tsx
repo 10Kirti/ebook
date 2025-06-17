@@ -69,7 +69,7 @@ const Cards = () => {
                 <span className="text-lg font-semibold text-blue-600">{book.price}</span>
                 <span className="text-sm text-green-700 font-medium">Condition: {book.condition}</span>
               </div>
-              <Link href="/Details">
+              <Link href="/details">
                 <button className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition duration-200 cursor-pointer">
                   View Details
                 </button>

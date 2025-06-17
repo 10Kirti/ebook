@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 const Header = () => {
   return (
     <>
@@ -20,11 +20,11 @@ const Header = () => {
                 </ul>
             </div> */}
           <ul className='flex items-center justify-center gap-4 text-gray-500'>
-            <li><a href="#">Home</a></li>
-            <li className='mr-7'><a href="#">Contact</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li className='mr-7'><Link href="/contact">Contact</Link></li>
             <li><span className='text-2xl'>|</span></li>
-            <li><button className='bg-gray-400 p-3 rounded-sm text-white'><a href="#">Login</a></button></li>
-            <li><button className='bg-gray-800 p-3 rounded-sm text-white'><a href="#">Register</a></button></li>
+            <li><button className='bg-gray-400 p-3 rounded-sm text-white'><Link href="/login">Login</Link></button></li>
+            <li><button className='bg-gray-800 p-3 rounded-sm text-white'><Link href="/register">Register</Link></button></li>
           </ul>
           </div>
       </div>

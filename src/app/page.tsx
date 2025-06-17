@@ -1,9 +1,10 @@
 import Image from "next/image";
-
-export default function Home() {
+'use client';
+import Home from "@/Pages/Home";
+export default function MainPage() {
   return (
   <>
-
+  <Home/>
   </>
   );
 }
